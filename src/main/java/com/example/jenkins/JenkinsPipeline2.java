@@ -12,4 +12,9 @@ public class JenkinsPipeline2 {
     public String welcome() {
         return "Hello everybody";
     }
+
+    @GetMapping("goodbye")
+    public String goodbye() {
+        return "Goodbye everybody";
+    }
 }
